@@ -18,6 +18,9 @@ components:
       volumeMounts:
         - name: npm
           path: /home/user/.npm
+      env:
+      - name: VSCODE_TRUSTED_EXTENSIONS
+        value: "github.copilot"    
   - name: npm
     volume:
       size: 1G
