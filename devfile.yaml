@@ -19,8 +19,8 @@ components:
         - name: npm
           path: /home/user/.npm
       env:
-      - name: VSCODE_TRUSTED_EXTENSIONS
-        value: "GitHub.copilot"    
+        - name: VSCODE_TRUSTED_EXTENSIONS
+          value: "GitHub.copilot"    
   - name: npm
     volume:
       size: 1G
