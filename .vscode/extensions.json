@@ -1,6 +1,7 @@
 {
    "recommendations": [
      "ms-azuretools.vscode-azure-github-copilot",
-     "GitHub.copilot"
+     "GitHub.copilot",
+     "github.vscode-pull-request-github"
     ]
 }
