@@ -20,7 +20,7 @@ components:
           path: /home/user/.npm
       env:
         - name: VSCODE_TRUSTED_EXTENSIONS
-          value: "GitHub.copilot,ms-azuretools.vscode-azure-github-copilot"    
+          value: "GitHub.copilot"    
   - name: npm
     volume:
       size: 1G
