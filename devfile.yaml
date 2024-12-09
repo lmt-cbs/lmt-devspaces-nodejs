@@ -18,6 +18,10 @@ components:
       volumeMounts:
         - name: npm
           path: /home/user/.npm
+      env:
+        - name: VSCODE_TRUSTED_EXTENSIONS
+          value: "GitHub.copilot-chat,Postman.postman-for-vscode "    
+    
   - name: npm
     volume:
       size: 1G
