@@ -21,11 +21,6 @@ components:
   - name: npm
     volume:
       size: 1G
-  - name: vscode-github-copilot
-    plugin:
-      id: GitHub.copilot
-      type: vscode
-      trustedExtensionAuthAccess: true    
 commands:
   - id: 1-dependencies
     exec:
