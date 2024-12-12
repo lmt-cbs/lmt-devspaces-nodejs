@@ -21,7 +21,11 @@ components:
       env:
         - name: VSCODE_TRUSTED_EXTENSIONS
           value: "github.vscode-pull-request-github,GitHub.copilot,GitHub.copilot-chat"    
-    
+  - name: vscode-editor
+    container:
+      image: quay.io/devspaces/udi-rhel8:latest
+      memoryRequest: 512Mi
+      memoryLimit: 1Gi
   - name: npm
     volume:
       size: 1G
