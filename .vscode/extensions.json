@@ -2,6 +2,7 @@
    "recommendations": [
      "GitHub.copilot-chat",
      "github.vscode-pull-request-github",
-     "redhat.java"
-    ]
+     "redhat.java",
+     "Postman.postman-for-vscode"
+   ]
 }

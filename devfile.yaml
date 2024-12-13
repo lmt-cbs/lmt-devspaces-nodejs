@@ -20,7 +20,7 @@ components:
           path: /home/user/.npm
       env:
         - name: VSCODE_TRUSTED_EXTENSIONS
-          value: "github.vscode-pull-request-github,GitHub.copilot,GitHub.copilot-chat"    
+          value: "Postman.postman-for-vscode,github.vscode-pull-request-github,GitHub.copilot,GitHub.copilot-chat"    
   - name: vscode-editor
     container:
       image: quay.io/devspaces/code-rhel8
