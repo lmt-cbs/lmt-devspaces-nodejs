@@ -18,6 +18,14 @@ components:
       volumeMounts:
         - name: npm
           path: /home/user/.npm
+      env:
+        - name: VSCODE_TRUSTED_EXTENSIONS
+          value: "github.vscode-pull-request-github,GitHub.copilot,GitHub.copilot-chat"    
+  - name: vscode-editor
+    container:
+      image: quay.io/devspaces/code-rhel8
+      memoryRequest: 512Mi
+      memoryLimit: 1Gi
   - name: npm
     volume:
       size: 1G
